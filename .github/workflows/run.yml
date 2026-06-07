@@ -3,7 +3,7 @@
   3 jobs:
   4   check-bats-version:
   5     runs-on: ubuntu-latest
-  6     step:
+  6     steps:
   7       - run: echo "first Actions Trial"
   8       - run: chmod +x hello.sh
   9       - run: chmod +x world-test.sh
