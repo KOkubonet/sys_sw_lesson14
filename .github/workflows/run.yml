@@ -1,10 +1,10 @@
-  1 name: GitHub-Actions-test
-  2 on: [push]
-  3 jobs:
-  4   check-bats-version:
-  5     runs-on: ubuntu-latest
-  6     steps:
-  7       - run: echo "first Actions Trial"
-  8       - run: chmod +x hello.sh
-  9       - run: chmod + world-test.sh
- 10       - run: ./world-test.sh
+  name: GitHub-Actions-test
+  on: [push]
+  jobs:
+    check-bats-version:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "first Actions Trial"
+        - run: chmod +x hello.sh
+        - run: chmod + world-test.sh
+        - run: ./world-test.sh
