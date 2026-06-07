@@ -6,5 +6,5 @@
   6     steps:
   7       - run: echo "first Actions Trial"
   8       - run: chmod +x hello.sh
-  9       - run: chmod +x world-test.sh
+  9       - run: chmod + world-test.sh
  10       - run: ./world-test.sh
