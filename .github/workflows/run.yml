@@ -7,6 +7,6 @@
         - name: Checkout
           uses: actions/checkout@v4
         - name: Permission
-          run: chmod +x hello.sh run: chmod + world-test.sh
+          run: chmod +x hello.sh chmod + world-test.sh
         - name: Test Run
           run: ./world-test.sh
